@@ -27,6 +27,7 @@ function App() {
       <label> Upload Images </label>
       <input type="file"  onChange={(event) => { setImageUpload(event.target.files) } } />
       <br></br>
+      <br></br>
       <button onClick={uploadImage} > Upload </button>
     </div>
 
